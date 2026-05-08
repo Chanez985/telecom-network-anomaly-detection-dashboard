@@ -257,3 +257,62 @@ telecom-network-anomaly-detection-dashboard/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+How to Run the App Locally
+
+Clone the repository:
+
+git clone https://github.com/Chanez985/telecom-network-anomaly-detection-dashboard.git
+
+Move into the project folder:
+
+cd telecom-network-anomaly-detection-dashboard
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run the Streamlit application:
+
+streamlit run app.py
+Technologies Used
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Scikit-learn
+Plotly
+Streamlit
+GitHub
+Streamlit Community Cloud
+Business Value
+
+This project demonstrates how machine learning can support telecom cybersecurity operations by:
+
+detecting suspicious network traffic;
+monitoring anomaly rates;
+identifying important network-flow risk drivers;
+supporting NOC/SOC decision-making;
+improving visibility into attack patterns;
+providing an interactive dashboard for operational teams.
+Limitations and Future Improvements
+
+The current model is designed for supervised detection of known attack patterns.
+
+Future improvements could include:
+
+unsupervised anomaly detection;
+Isolation Forest;
+One-Class SVM;
+autoencoder-based anomaly detection;
+real-time traffic monitoring;
+integration with telecom network logs;
+alert scoring and incident prioritization;
+retraining pipeline for new attack patterns.
+Author
+
+Chanez Benidir
+
+Data Science and Statistics student
+Interested in machine learning, cybersecurity analytics, telecom intelligence and decision-support systems.
+
