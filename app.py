@@ -28,10 +28,7 @@ FIGURES_DIR = BASE_DIR / "figures"
 
 DATA_PATH = DATA_DIR / "telecom_network_app_sample.csv"
 
-POSSIBLE_MODEL_RESULTS = [
-    DATA_DIR / "model_results.csv",
-    BASE_DIR / "model_results.csv",
-]
+
 
 POSSIBLE_FINAL_SUMMARY = [
     DATA_DIR / "final_model_summary.csv",
