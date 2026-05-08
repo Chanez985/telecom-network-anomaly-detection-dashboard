@@ -18,6 +18,8 @@ st.set_page_config(
 )
 
 
+
+
 # ============================================================
 # PATHS
 # ============================================================
@@ -28,18 +30,33 @@ FIGURES_DIR = BASE_DIR / "figures"
 
 DATA_PATH = DATA_DIR / "telecom_network_app_sample.csv"
 
-
+POSSIBLE_MODEL_RESULTS = [
+    DATA_DIR / "model_comparison_results.csv",
+    DATA_DIR / "model_results.csv",
+    BASE_DIR / "model_results.csv",
+]
 
 POSSIBLE_FINAL_SUMMARY = [
     DATA_DIR / "final_model_summary.csv",
+    DATA_DIR / "model_summary.csv",
     BASE_DIR / "final_model_summary.csv",
 ]
 
 POSSIBLE_FEATURE_IMPORTANCE = [
     DATA_DIR / "feature_importance_final.csv",
+    DATA_DIR / "feature_importance_results.csv",
     BASE_DIR / "feature_importance_final.csv",
 ]
 
+POSSIBLE_CV_RESULTS = [
+    DATA_DIR / "cross_validation_results.csv",
+    BASE_DIR / "cross_validation_results.csv",
+]
+
+POSSIBLE_THRESHOLD_RESULTS = [
+    DATA_DIR / "threshold_optimisation_results.csv",
+    BASE_DIR / "threshold_optimisation_results.csv",
+]
 
 # ============================================================
 # OPERATOR THEMES
